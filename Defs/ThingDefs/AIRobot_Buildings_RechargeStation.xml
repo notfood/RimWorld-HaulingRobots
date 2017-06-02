@@ -15,6 +15,21 @@
 			</damageData>
 		</graphicData>
 		<Size>(2,2)</Size>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+			<workAmount>10000</workAmount>
+			<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		</recipeMaker>
+		<costList>
+			<Steel>120</Steel>
+			<Component>4</Component>
+		</costList>
 		<minifiedDef>AIRobot_MinifiedRechargeStation</minifiedDef>
 		<fillPercent>0.25</fillPercent>
 		<statBases>
