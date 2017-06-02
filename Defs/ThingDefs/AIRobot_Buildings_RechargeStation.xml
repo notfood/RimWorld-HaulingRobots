@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Class="BaseRobot.ThingDef_BaseRobot_Building_RechargeStation" ParentName="Thing_BaseRechargeStation">
+		<defName>HaulingRobot_RechargeStation</defName>
+		<label>Hauler Base Station</label>
+		<description>This station comes equipped with a specialized robot.</description>
+		<graphicData>
+			<texPath>Things/Building/HaulingBot_RechargeStation/HaulingBotRechargeStation</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.7,1.7)</drawSize>
+			<damageData>
+				<rect>(0.05,0.05,0.95,0.95)</rect>
+			</damageData>
+		</graphicData>
+		<Size>(2,2)</Size>
+		<minifiedDef>AIRobot_MinifiedRechargeStation</minifiedDef>
+		<fillPercent>0.25</fillPercent>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Beauty>0</Beauty>
+			<WorkToMake>3000</WorkToMake>
+			<MarketValue>1600</MarketValue>
+			<Mass>10</Mass>
+		</statBases>
+
+		<secondaryGraphicPath>Things/Building/HaulingBot_RechargeStation/RechargeStation_Empty</secondaryGraphicPath>
+		<spawnThingDef>HaulingRobot</spawnThingDef>
+		<rechargeEfficiency>1.0</rechargeEfficiency>
+	</ThingDef>
+
+</Defs>

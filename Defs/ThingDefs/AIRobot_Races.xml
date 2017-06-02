@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Class="BaseRobot.ThingDef_BaseRobot" ParentName="Thing_BaseRobot">
+		<defName>HaulingRobot</defName>
+		<label>Hauling Bot</label>
+		<description>A hauling robot.</description>
+		<uiIconPath>Things/Pawn/Humanlike/UI/IconHuman</uiIconPath>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<MoveSpeed>5.85</MoveSpeed>
+			<Flammability>1.0</Flammability>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ComfyTemperatureMax>45</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<defaultCooldownTime>1.45</defaultCooldownTime>
+				<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
+				<meleeDamageDef>Blunt</meleeDamageDef>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+			</li>
+		</verbs>
+		<race>
+			<body>BaseRobot</body>
+			<baseBodySize>0.6</baseBodySize>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseHealthScale>0.6</baseHealthScale>
+		</race>
+		<robotWorkTypes>
+			<li>
+				<workTypeDef>Hauling</workTypeDef>
+				<priority>1</priority>
+			</li>
+		</robotWorkTypes>
+		<destroyedDef>HaulingRobot_disabled</destroyedDef>
+		<allowLearning>false</allowLearning>
+	</ThingDef>
+
+</ThingDefs>
