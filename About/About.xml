@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Hauling Bot</name>
+	<author>Arcane_Chill</author>
+	<targetVersion>0.17.0</targetVersion>
+	<description>Adds a hauling bot which can be crafted.  "Base Robots" MUST be installed
+
+Base Robots provides a main "Robots" tab where you can see all active robots, rename them, and assign them to an area.
+
+Feel free to make your own custom robots using Base Robots.  I will be writing a tutorial, but until then you can use this mod as an example.  The only things needed are textures and XML defs - the code is already taken care of.
+	</description>
+</ModMetaData>
