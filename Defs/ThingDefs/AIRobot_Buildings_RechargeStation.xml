@@ -14,7 +14,7 @@
 				<rect>(0.05,0.05,0.95,0.95)</rect>
 			</damageData>
 		</graphicData>
-		<Size>(2,2)</Size>
+		<size>(2,2)</size>
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>

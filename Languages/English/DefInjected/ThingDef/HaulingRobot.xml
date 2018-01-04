@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<AIRobot_RechargeStation_Hauler.label>Hauler Base Station</AIRobot_RechargeStation_Hauler.label>
-	<AIRobot_RechargeStation_Hauler.description>This station comes equipped with a specialized robot.</AIRobot_RechargeStation_Hauler.description>
+	<HaulingRobot_RechargeStation.label>Hauler Base Station</HaulingRobot_RechargeStation.label>
+	<HaulingRobot_RechargeStation.description>This station comes equipped with a specialized robot.</HaulingRobot_RechargeStation.description>
 
-	<AIRobot_Hauler.description>This is a hauling robot. It carries your purchases home and even lifts your new piano up into your room on the 20th floor.</AIRobot_Hauler.description>
+	<HaulingRobot.description>This is a hauling robot. It carries your purchases home and even lifts your new piano up into your room on the 20th floor.</HaulingRobot.description>
 
-	<AIRobot_Hauler_disabled.label>HaulingBot (disabled)</AIRobot_Hauler_disabled.label>
-	<AIRobot_Hauler_disabled.description>This is the sad end of a bot. It's no longer useful and needs heavy repairs or dismantling.</AIRobot_Hauler_disabled.description>
+	<HaulingRobot_disabled.label>HaulingBot (disabled)</HaulingRobot_disabled.label>
+	<HaulingRobot_disabled.description>This is the sad end of a bot. It's no longer useful and needs heavy repairs or dismantling.</HaulingRobot_disabled.description>
 
 </LanguageData>

@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>Hauling Bot</name>
 	<author>Arcane_Chill</author>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>0.18.0</targetVersion>
 	<description>Adds a hauling bot which can be crafted.  "Base Robots" MUST be installed
 
 Base Robots provides a main "Robots" tab where you can see all active robots, rename them, and assign them to an area.
