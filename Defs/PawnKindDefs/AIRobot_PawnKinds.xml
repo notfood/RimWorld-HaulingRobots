@@ -8,9 +8,10 @@
 		<combatPower>999999</combatPower>
 		<chemicalAddictionChance>0.0</chemicalAddictionChance>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
-		<backstoryCategory>Spacer</backstoryCategory>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
 		<isFighter>false</isFighter>
-		<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -32,7 +33,7 @@
 			<li>Gun</li>
 		</weaponTags>
 		<apparelTags>
-			<li>Spacer</li>
+			<li>IndustrialBasic</li>
 		</apparelTags>
 		<apparelMoney>
 			<min>0</min>
@@ -44,7 +45,7 @@
 		</gearHealthRange>
 		<invNutrition>0.05</invNutrition>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-		<apparelAllowHeadwearChance>0.04</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>0.04</apparelAllowHeadgearChance>
 		<backstoryCryptosleepCommonality>0.04</backstoryCryptosleepCommonality>
 		<forceNormalGearQuality>false</forceNormalGearQuality>
 	</PawnKindDef>

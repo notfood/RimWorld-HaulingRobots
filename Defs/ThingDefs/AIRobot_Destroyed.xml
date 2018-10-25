@@ -6,7 +6,7 @@
 		<label>HaulingBot (disabled)</label>
 		<description>This is the sad end of a home bot. It's no longer useful and needs heavy repairs or dismantling.</description>
 		<graphicData>
-			<texPath>Things/AIRobot/HaulingBot_back</texPath>
+			<texPath>Things/AIRobot/HaulingBot_north</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.7,1.7)</drawSize>
 		</graphicData>
@@ -20,7 +20,7 @@
 		</butcherProducts>
 		<costList>
 			<Steel>35</Steel>
-			<Component>5</Component>
+			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 	</ThingDef>
 

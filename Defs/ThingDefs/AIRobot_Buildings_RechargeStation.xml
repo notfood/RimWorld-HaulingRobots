@@ -28,7 +28,7 @@
 		</recipeMaker>
 		<costList>
 			<Steel>120</Steel>
-			<Component>4</Component>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<minifiedDef>AIRobot_MinifiedRechargeStation</minifiedDef>
 		<fillPercent>0.25</fillPercent>
